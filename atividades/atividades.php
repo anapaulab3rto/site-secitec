@@ -8,9 +8,7 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;1,700&display=swap');
         body {
-            position: relative;
-            /* adicionando imagem de fundo */
-           
+            position: relative;          
             background-image: url("back.jpg");
             background-size: cover;
             background-repeat: no-repeat;
@@ -19,20 +17,19 @@
         }
         .form {
             background: #ffffff;
-            border-radius: 15pt;
-            
+            border-radius: 15pt;     
             display: flex;
             flex-direction: row;
             display: flex;
             align-items: center;
             justify-content: center;
-            margin-inline: 32%;
+            margin-inline: 29%;
             
            
         }
         .input {
             font-family: 'Philosopher', sans-serif;
-            margin: 10pt;
+            margin: 3%;
             border-radius: 10pt;
             height: 18pt;
             padding: 4pt;
