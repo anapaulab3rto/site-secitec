@@ -1,14 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;1,700&display=swap');
 
 body {
-    position: relative;
-   
+    position: relative; 
     background-image: url("../atividades/back.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 95vw;
+    height: 90vh;
     
 }
         
@@ -21,7 +22,7 @@ body {
     align-items: center;
     padding: 2%;
     width: 30%;
-    
+
     
 }
 .input {

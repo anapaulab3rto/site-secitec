@@ -8,22 +8,25 @@
     <title>Document</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;1,700&display=swap');
+
         body {
-            position: relative;
-            /* adicionando imagem de fundo */
-           
+
+            position: relative;        
             background-image: url("back.jpg");
             background-size: cover;
             background-repeat: no-repeat;
 			display: flex;
 			align-items: center;
             justify-content: center;
+            width: 95vw;
+            height: 90vh;
             
         }
+
         .form {
+
             background: #ffffff;
-            border-radius: 15pt;
-            
+            border-radius: 15pt;          
             display: flex;
             flex-direction: row;
             display: flex;
@@ -34,7 +37,9 @@
             
            
         }
+
         .input {
+
             font-family: 'Philosopher', sans-serif;
             margin: 10pt;
             border-radius: 10pt;
@@ -50,9 +55,10 @@
             margin-right: auto;
 			margin: 15pt; 
         }
+        
         .title-form {
+
             font-family: 'Philosopher', sans-serif;
-    
             font-size: 25pt;
             margin: 10pt;
             border-radius: 10pt;
