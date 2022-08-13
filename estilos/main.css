@@ -2,7 +2,7 @@
 
 body {
     position: relative; 
-    background-image: url("../atividades/back.jpg");
+    background-image: url("../imagens/back.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -25,14 +25,27 @@ body {
 
     
 }
-.input {
+
+#formlogin{
+    background: #ffffff;
+    border-radius: 15pt;
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+    width: 30%;
+
+    
+}
+/* .input {
 
     margin: 10pt;
     border-radius: 10pt;
     height: 5%;
     padding: 1%;
     
-}
+} */
 .titulo {
     font-family: 'Philosopher', sans-serif;
     display: block;
@@ -78,7 +91,62 @@ body {
     text-decoration: none;
     color: #ffffff;
 }
-/* .conteiner {
 
-    margin-top: 8%;
+      
+.form-cadastro {
+    background: #ffffff;
+    border-radius: 15pt;
+    margin: 10%;
+    display: flex;
+    flex-direction: row;
+    
+
+    
+   
+}
+/* .input {
+
+    margin: 10pt;
+    border-radius: 10pt;
+    height: 18pt;
+    padding: 4pt;
+    
 } */
+.titulo {
+    font-family: 'Philosopher', sans-serif;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.title-form {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 25pt;
+    margin-bottom: 5%;
+    
+
+   
+}
+#form-cadastro {
+
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    
+    
+
+}
+#botao_enviar {
+    font-family: 'Philosopher', sans-serif;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100pt;
+    height: 30pt;
+    margin-top: 15pt;
+    border-radius: 10pt;
+    background-color: #7fda7f;
+    border-color: transparent;
+}
+
+
+

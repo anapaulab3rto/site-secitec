@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../estilos/main.css" media="screen" />
+    <title>Document</title>
+
+</head>
+<body>
+    
+    <div class="form-cadastro"> 
+        
+        <img src="../imagens/logo.png" alt="logo secitec" width="550pt" height="550pt">
+
+        <div id="form-cadastro">
+            <h2 class="title-form">Cadastro de atividades</h2>
+            
+            <form action="cadastro_atv.php" method="post" id="form-cadastro">
+            
+                <label for="input_nome_atv">Nome da Atividade</label>
+                <input type="text" id="input_nome_atv" name="nome_atv">
+    
+                <label for="input_dia">Data</label>
+                <input type="text" id="input_dia" name="dia">                
+       
+                <label for="input_hora">Horário</label>
+                <input type="text" id="input_hora" name="hora">
+    
+                <label for="input_tipo">Tipo</label>
+                <input type="text" id="input_tipo" name="tipo">
+        
+                <label for="input_duracao">Duração</label>
+                <input type="text" id="input_duracao" name="duracao">
+    
+                <label for="input_email_org">Email do Organizador</label>
+                <input type="text" id="input_email_org" name="email_org">
+            
+                <input type="submit" value="Enviar" id="botao_enviar">
+                                 
+            </form>
+            
+        </div>
+       
+
+    </div>
+
+ 
+    
+</body>
+</html>

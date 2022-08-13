@@ -10,7 +10,6 @@
         @import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;1,700&display=swap');
         body {
             position: relative;
-            /* adicionando imagem de fundo */
            
             background-image: url("back.jpg");
             background-size: cover;
