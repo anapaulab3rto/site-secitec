@@ -12,7 +12,17 @@ body {
     height: 90vh;
     
 }
-        
+
+.menu {
+    background: #ffffff;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    border-radius: 15pt;
+    padding: 1%;
+    width: 90vw;
+
+}       
 .form {
     background: #ffffff;
     border-radius: 15pt;
@@ -79,9 +89,6 @@ body {
 }
 .botao_enviar {
     font-family: 'Philosopher', sans-serif;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     width: 125pt;
     height: 35pt;
     margin-top: 15pt;

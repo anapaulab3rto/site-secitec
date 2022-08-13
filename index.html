@@ -7,30 +7,32 @@
     <link rel="stylesheet" type="text/css" href="estilos/main.css" media="screen" />
     <title>Menu Principal - Secitec</title>
 </head>
-<body>
+<style>
+    body {
+    position: relative; 
+    background-image: url("imagens/back.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    align-content: center;
+    width: 95vw;
+    height: 90vh;
     
+}
+</style>
+<body>      
+    <div class="menu"> 
 
-    <div class="form"> 
-        <h1 class="titulo-1">Menu Principal</h1>
-       
-        <div class="conteiner">
-            <button class="botao_enviar"><a href="atividades/cadastrar.html" class="titulo">Cadastrar Atividades</a></button>
-            <button class="botao_enviar"><a href="atividades/listar_atv.php" class="titulo">Listar Atividades</a></button>
-            <button class="botao_enviar"><a href="atividades/excluir_atv.php" class="titulo">Excluir Atividades</a></button>
+        <nav>
+            <button class="botao_enviar"><a href="participantes/cadastro.html" class="titulo">Cadastre-se</a></button>                
+            <button class="botao_enviar"><a href="login.html" class="titulo">Login</a></button>
+            
+        </nav>
 
-        </div>
-        <div class="conteiner">
-
-            <button class="botao_enviar"><a href="participante/participante.php" class="titulo">Cadastrar Participantes</a></button>                
-            <button class="botao_enviar"><a href="participante/listar.php" class="titulo">Listar participantes</a></button>
-            <button class="botao_enviar"><a href="participante/excluir_par.php" class="titulo">Excluir Participantes</a></button>
-
-
-        </div>
-        
-      
-        
     </div>
+
 
  
     
