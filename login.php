@@ -1,4 +1,3 @@
-
 <?php
 
 	session_start();
@@ -23,12 +22,12 @@
 
 	if ($result->num_rows > 0) {
 
-			$_SESSION['usuario'] = $login;
-			$_SESSION['senha'] = $senha;
-			header('location:index.html');
+		$_SESSION['usuario'] = $login;
+		$_SESSION['senha'] = $senha;
+		header('location:index.html');
 			
 	}
-		else {
+	else {
 		echo "0 results";
 		unset ($_SESSION['usuario']);
 		unset ($_SESSION['senha']);
