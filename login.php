@@ -24,7 +24,7 @@
 
 		$_SESSION['usuario'] = $login;
 		$_SESSION['senha'] = $senha;
-		header('location:index.html');
+		header('location:areaParticipante.html');
 			
 	}
 	else {

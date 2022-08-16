@@ -29,30 +29,27 @@
 
 			$conexao->select_db("secitec");
 
-			$query1 = "INSERT INTO `secitec`.`participante`(`nome`,`email`, `telefone`, `datanasc`,`username`) VALUES ('" . $nome . "','" .  $email . "','" .  $telefone . "','" .  $datanasc . "','" .  $username . "');";
-
-            $senha = password_hash($senha, PASSWORD_DEFAULT);
+			$senha = password_hash($senha, PASSWORD_DEFAULT);
             
 
             $query2 = "INSERT INTO `secitec`.`usuario`(`username`,`senha`) VALUES ('" . $username . "','" .  $senha . "');";
+		
 
+			$query1 = "INSERT INTO `secitec`.`participante`(`nome`,`email`, `telefone`, `datanasc`,`username`) VALUES ('" . $nome . "','" .  $email . "','" .  $telefone . "','" .  $datanasc . "','" .  $username . "');";
 
+            
 
-			if($conexao->query($query1) === TRUE){
+			if($conexao->query($query2) === TRUE and $conexao->query($query1) === TRUE){
 
 				echo "Inscrição realizada com sucesso!";
+				header('location:../areaParticipante.html');
 
 			}else{
 				echo "Erro: " . mysql_error();
+				header('location:cadastro.html');
 			}
 
-            if($conexao->query($query2) === TRUE){
-
-				echo "Inscrição realizada com sucesso!";
-
-			}else{
-				echo "Erro: " . mysql_error();
-			}
+            
 
 			$conexao->close();
 
