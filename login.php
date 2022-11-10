@@ -1,7 +1,7 @@
 <?php
 
 	session_start();
-	
+
 	$login = $_POST['login'];
 	$senha = $_POST['senha'];
 	
@@ -9,8 +9,8 @@
 	$username = "ifpb";
 	$password = "ifpb";
 	$dbname = "secitec";
-
 	
+
 	$conn = new mysqli($servername, $username, $password, $dbname);
 
 	if ($conn->connect_error) {
